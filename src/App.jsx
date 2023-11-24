@@ -1,5 +1,6 @@
+import TopBanner from "./components/TopBanner";
 const App = () => {
-  return <div className="bg-red-100">Hello, React!</div>;
+  return <div> <TopBanner/></div>;
 };
 
 export default App;
